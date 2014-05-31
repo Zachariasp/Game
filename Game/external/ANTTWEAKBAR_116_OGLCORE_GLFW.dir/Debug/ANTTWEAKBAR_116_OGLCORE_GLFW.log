@@ -1,0 +1,36 @@
+﻿Build started 7/2/2013 9:51:34 PM.
+     1>Project "C:\Repository\Game\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Repository/Game/Source/external/CMakeLists.txt
+         CMake does not need to re-run because C:\Repository\Game\external\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Repository/Game/Source/external/glfw-2.7.6/lib/win32" /I"C:/Repository/Game/Source/external/glfw-2.7.6/lib" /I"C:/Repository/Game/Source/external/glfw-2.7.6/include" /I"C:/Repository/Game/Source/external/glew-1.9.0/include" /I"C:/Repository/Game/Source/external/AntTweakBar-1.16/include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\\" /Fd"C:/Repository/Game/external/Debug/ANTTWEAKBAR_116_OGLCORE_GLFW.pdb" /Gd /TP /errorReport:prompt  /Zm1000 "..\Source\external\AntTweakBar-1.16\src\LoadOGL.cpp" "..\Source\external\AntTweakBar-1.16\src\LoadOGLCore.cpp" "..\Source\external\AntTweakBar-1.16\src\TwColors.cpp" "..\Source\external\AntTweakBar-1.16\src\TwBar.cpp" "..\Source\external\AntTweakBar-1.16\src\TwFonts.cpp" "..\Source\external\AntTweakBar-1.16\src\TwMgr.cpp" "..\Source\external\AntTweakBar-1.16\src\TwOpenGL.cpp" "..\Source\external\AntTweakBar-1.16\src\TwOpenGLCore.cpp" "..\Source\external\AntTweakBar-1.16\src\TwPrecomp.cpp"
+         LoadOGL.cpp
+         LoadOGLCore.cpp
+         TwColors.cpp
+         TwBar.cpp
+         TwFonts.cpp
+         TwMgr.cpp
+         TwOpenGL.cpp
+         TwOpenGLCore.cpp
+         TwPrecomp.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Repository/Game/Source/external/glfw-2.7.6/lib/win32" /I"C:/Repository/Game/Source/external/glfw-2.7.6/lib" /I"C:/Repository/Game/Source/external/glfw-2.7.6/include" /I"C:/Repository/Game/Source/external/glew-1.9.0/include" /I"C:/Repository/Game/Source/external/AntTweakBar-1.16/include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\\" /Fd"C:/Repository/Game/external/Debug/ANTTWEAKBAR_116_OGLCORE_GLFW.pdb" /Gd /TC /errorReport:prompt  /Zm1000 "..\Source\external\AntTweakBar-1.16\src\TwEventGLFW.c"
+         TwEventGLFW.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Repository\Game\external\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib" /NOLOGO /MACHINE:X64 ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\LoadOGL.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\LoadOGLCore.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwColors.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwBar.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwEventGLFW.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwFonts.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwMgr.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwOpenGL.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwOpenGLCore.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Debug\TwPrecomp.obj
+         ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> C:\Repository\Game\external\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib
+     1>Done Building Project "C:\Repository\Game\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.88

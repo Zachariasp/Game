@@ -1,0 +1,27 @@
+﻿Build started 6/8/2013 9:41:58 PM.
+     1>Project "C:\Repository\Compiler\tutorial11_2d_fonts.vcxproj" on node 5 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Repository\Compiler\Debug\tutorial11_2d_fonts.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib external\Debug\GLFW_276.lib external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repository/Compiler/Debug/tutorial11_2d_fonts.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repository/Compiler/Debug/tutorial11_2d_fonts.lib" /MACHINE:X64  /machine:x64 /debug tutorial11_2d_fonts.dir\Debug\tutorial11.obj
+         tutorial11_2d_fonts.dir\Debug\shader.obj
+         tutorial11_2d_fonts.dir\Debug\controls.obj
+         tutorial11_2d_fonts.dir\Debug\texture.obj
+         tutorial11_2d_fonts.dir\Debug\objloader.obj
+         tutorial11_2d_fonts.dir\Debug\vboindexer.obj
+         tutorial11_2d_fonts.dir\Debug\text2D.obj
+         tutorial11_2d_fonts.vcxproj -> C:\Repository\Compiler\Debug\tutorial11_2d_fonts.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/Repository/Compiler/Debug/tutorial11_2d_fonts.exe C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/tutorial11_2d_fonts/
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Repository\Compiler\tutorial11_2d_fonts.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.61

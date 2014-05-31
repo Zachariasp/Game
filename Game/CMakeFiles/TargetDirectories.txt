@@ -1,0 +1,6 @@
+C:/Repository/Game/CMakeFiles/ALL_BUILD.dir
+C:/Repository/Game/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir
+C:/Repository/Game/external/CMakeFiles/GLEW_190.dir
+C:/Repository/Game/external/CMakeFiles/GLFW_276.dir
+C:/Repository/Game/CMakeFiles/Game.dir
+C:/Repository/Game/CMakeFiles/ZERO_CHECK.dir

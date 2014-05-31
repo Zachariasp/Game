@@ -1,0 +1,36 @@
+﻿Build started 6/7/2013 9:46:36 PM.
+     1>Project "C:\Repository\Compiler\playground.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/CMakeLists.txt
+         CMake does not need to re-run because C:\Repository\Compiler\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/AntTweakBar-1.16/include" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glfw-2.7.6/include" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glm-0.9.4.0" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glew-1.9.0/include" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/." /Zi /nologo /W3 /WX- /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"playground.dir\Debug\\" /Fd"C:/Repository/Compiler/Debug/playground.pdb" /Gd /TP /errorReport:prompt  /Zm1000 "..\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\common\controls.cpp" "..\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\common\objloader.cpp" "..\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\common\texture.cpp" "C:\Repository\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\playground\playground.cpp" "C:\Repository\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\common\shader.cpp"
+         controls.cpp
+         objloader.cpp
+         texture.cpp
+         playground.cpp
+         shader.cpp
+     1>C:\Repository\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\playground\playground.cpp(179): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Repository\Compiler\Debug\playground.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib external\Debug\GLFW_276.lib external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repository/Compiler/Debug/playground.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repository/Compiler/Debug/playground.lib" /MACHINE:X64  /machine:x64 /debug playground.dir\Debug\controls.obj
+         playground.dir\Debug\objloader.obj
+         playground.dir\Debug\texture.obj
+         playground.dir\Debug\playground.obj
+         playground.dir\Debug\shader.obj
+         playground.vcxproj -> C:\Repository\Compiler\Debug\playground.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/Repository/Compiler/Debug/playground.exe C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/playground/
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Repository\Compiler\playground.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99

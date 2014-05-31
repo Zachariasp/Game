@@ -1,0 +1,23 @@
+﻿Build started 7/2/2013 10:26:19 PM.
+     1>Project "C:\Repository\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Repository/Game/Source/external/AntTweakBar-1.16/include" /I"C:/Repository/Game/Source/external/glfw-2.7.6/include" /I"C:/Repository/Game/Source/external/glm-0.9.4.0" /I"C:/Repository/Game/Source/external/glew-1.9.0/include" /IC:/Repository/Game/Source/. /Zi /nologo /W3 /WX- /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Game.dir\Debug\\" /Fd"C:/Repository/Game/Debug/Game.pdb" /Gd /TP /errorReport:prompt  /Zm1000 Source\Game\main.cpp
+         main.cpp
+     1>C:\Repository\Game\Source\../../Game/GameState.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>Source\Game\main.cpp(140): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Repository\Game\Debug\Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib external\Debug\GLFW_276.lib external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repository/Game/Debug/Game.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repository/Game/Debug/Game.lib" /MACHINE:X64  /machine:x64 /debug Game.dir\Debug\InputState.obj
+         Game.dir\Debug\OutputState.obj
+         Game.dir\Debug\SpaceObject.obj
+         Game.dir\Debug\GameState.obj
+         Game.dir\Debug\main.obj
+         Game.dir\Debug\shader.obj
+         Game.dir\Debug\controls.obj
+         Game.dir\Debug\texture.obj
+         Game.dir\Debug\objloader.obj
+         Game.vcxproj -> C:\Repository\Game\Debug\Game.exe
+     1>Done Building Project "C:\Repository\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65

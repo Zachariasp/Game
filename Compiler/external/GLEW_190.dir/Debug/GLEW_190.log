@@ -1,0 +1,16 @@
+﻿Build started 6/7/2013 9:46:32 PM.
+     1>Project "C:\Repository\Compiler\external\GLEW_190.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/CMakeLists.txt
+         CMake does not need to re-run because C:\Repository\Compiler\external\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glfw-2.7.6/lib/win32" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glfw-2.7.6/lib" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glfw-2.7.6/include" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/glew-1.9.0/include" /I"C:/Repository/OpenGL-tutorial_v0011_33/OpenGL-tutorial_v0011_33/external/AntTweakBar-1.16/include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"GLEW_190.dir\Debug\\" /Fd"C:/Repository/Compiler/external/Debug/GLEW_190.pdb" /Gd /TC /errorReport:prompt  /Zm1000 "C:\Repository\OpenGL-tutorial_v0011_33\OpenGL-tutorial_v0011_33\external\glew-1.9.0\src\glew.c"
+         glew.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Repository\Compiler\external\Debug\GLEW_190.lib" /NOLOGO /MACHINE:X64 GLEW_190.dir\Debug\glew.obj
+         GLEW_190.vcxproj -> C:\Repository\Compiler\external\Debug\GLEW_190.lib
+     1>Done Building Project "C:\Repository\Compiler\external\GLEW_190.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66
